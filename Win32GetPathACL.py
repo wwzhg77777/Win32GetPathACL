@@ -1,8 +1,9 @@
+#!/bash/bin
+
 import argparse
 import ctypes
 import os
 import re
-import sys
 
 import utils
 # ctypes.windll.shell32.IsUserAnAdmin()
@@ -435,7 +436,7 @@ def start_program():
     
     
     
-    --------------------------------------- Author  : wendirong@uwell.cc
+    --------------------------------------- Author  : ww1372247148@163.com
     --------------------------------------- Version : 0.0.3-beta
     ''',
                                      epilog='''

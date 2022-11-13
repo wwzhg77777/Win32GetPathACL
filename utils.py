@@ -1,3 +1,5 @@
+#!/bash/bin
+
 import json
 import os
 import re

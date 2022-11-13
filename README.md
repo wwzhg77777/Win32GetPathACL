@@ -1,8 +1,10 @@
-Windows 文件权限ACL列表查询导出工具, 详见工具介绍及参数示例.
+**Windows 文件权限ACL列表查询导出工具, 详见工具介绍及参数示例.**
+
+    Windows 文件权限ACL列表查询导出工具, 详见工具介绍及参数示例.
+
     --- 仅支持导出 Excel|Json 格式
     --- 支持按层级递归遍历文件夹, 将使用CLI携带的凭证
     --- 支持对文件夹进行递归的SID精确搜索和正则搜索  --- 正则通配符部分描述:  * 匹配0到多个   + 匹配1个或多个   ? 匹配0个或1个
-
 
 
 
@@ -10,6 +12,7 @@ Windows 文件权限ACL列表查询导出工具, 详见工具介绍及参数示�
     --------------------------------------- Version : 0.0.3-beta
 
 
+```bash
 optional arguments:
   -h, --help            show this help message and exit
 
@@ -65,3 +68,4 @@ Beta Options:
     eg.=    <EXE> "C:\Config Msi" --print default                          # 长选项: 过程回显, 格式: default
     eg.=    <EXE> "C:\Config Msi" -d 2 -reg-fs "011*" -p uacl aacl path    # 短选项: 正则搜索, 过程回显, 格式: uacl aacl path
     eg.=    <EXE> "C:\Config Msi" -d 2 -p tree uacl aacl path              # 短选项: 过程回显, 格式: tree uacl aacl path
+```

@@ -1,1 +1,1 @@
-pyinstaller -F .\Win32GetPathACL.py -i .\favicon64.ico
+pyinstaller -F .\Win32GetPathACL.py -i .\favicon64.ico --key keymessage
